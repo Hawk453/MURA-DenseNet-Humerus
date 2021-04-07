@@ -5,12 +5,19 @@ MURA (musculoskeletal radiographs) is a large dataset of bone X-rays.
 
 ### Performance of the models
 #### MURA-DenseNet-v1.5-Humerus:
-Kappa Score: 0.6587347649448636
+Kappa Score: 0.6587347649448636, AUROC: 
+<br>
 Training on: Epoch: 10, Batch size: 32
 
 #### MURA-DenseNet-v1.6-Humerus:
-Kappa Score: 0.6736740597878496
+Kappa Score: 0.6736740597878496, AUROC:
+<br>
 Training on: Epoch 12[Early Stopping], Batch size: 32
+
+#### MURA-DenseNet-v1.7-Humerus:
+Kappa Score: 0.6800618238021638, AUROC: 0.911
+<br>
+Training on: Epoch: 12, Batch size: 32
 
 ### Citation
 @article{rajpurkar2018mura, title={MURA Dataset: Towards Radiologist-Level Abnormality Detection in Musculoskeletal Radiographs}, author={Rajpurkar, Pranav and Irvin, Jeremy and Bagul, Aarti and Ding, Daisy and Duan, Tony and Mehta, Hershel and Yang, Brandon and Zhu, Kaylie and Laird, Dillon and Ball, Robyn L and others}, year={2018} }
