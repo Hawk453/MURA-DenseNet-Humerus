@@ -1,4 +1,4 @@
-# Code for the Research Paper on Humerus Abnormality Analysis
+# Abnormality Detection in Humerus Bone Radiographs using DenseNet
 This repository contains an implementation of the 169-layers Densely Connected Convolutional Networks (DenseNet-169) model for the task of abnormality detection in musculoskeletal Radiographs on MURA dataset.
 ### Dataset: MURA v1.1
 MURA (musculoskeletal radiographs) is a large dataset of bone X-rays.
